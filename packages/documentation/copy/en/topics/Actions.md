@@ -173,7 +173,7 @@ An action may have a data type, in which case, a variant of the `schedule()` fun
 
 ## Physical Actions
 
-A $physical$ $action$ is used to schedule reactions at logical times determined by the local physical clock. If a physical action with delay _d_ is scheduled at _physical_ time _T_, then the _logical time_ assigned to the event is _T_ + _d_. For example, the following reactor schedules the physical action `p` to trigger at a **logical time** equal to the **physical time** at which the input `x` arrives:
+A $physical$ $action$ is used to schedule reactions at logical times determined by the local physical clock. If a physical action with delay _d_ is scheduled at _physical_ time _T_, then the _logical time_ assigned to the event is _T_ + _d_. For example, the following reactor schedules the physical action `a` to trigger at a **logical time** equal to the **physical time** at which the input `x` arrives:
 
 $start(Physical)$
 
